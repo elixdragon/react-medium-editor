@@ -57,14 +57,16 @@
   position: absolute;
   text-align: center;
   top: 0;
-  word-break: break-all;
   word-wrap: break-word;
   visibility: hidden;
   z-index: 2000; }
   .medium-editor-anchor-preview a {
-    color: #fff;
-    display: inline-block;
-    margin: 5px 5px 10px; }
+      color: #fff;
+      display: inline-block;
+      margin-right: 5px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;}
 
 .medium-editor-anchor-preview-active {
   visibility: visible; }

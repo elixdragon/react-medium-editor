@@ -55,9 +55,12 @@
     color: #fff; }
 
 .medium-editor-toolbar-anchor-preview {
-  background: #242424;
-  border-radius: 5px;
-  color: #fff; }
+    background: #242424;
+    border-radius: 5px;
+    color: #fff;
+    padding: 6px;
+    display: flex;
+}
 
 .medium-editor-placeholder:after {
   color: #b3b3b1; }
